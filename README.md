@@ -95,3 +95,5 @@ style: updated documentation styles
 
 semver.org
 conventionalcommits.org
+
+semantic-release/semantic-release
