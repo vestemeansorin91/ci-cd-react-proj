@@ -12,7 +12,7 @@ jobs:
       - name: Slack slack-message
         run: |
           curl -X POST -H 'Content-type: application/json'
-          --data '{"text":"New issues created:is out, <${{
+          --data '{"text":"New issues created: <${{
           github.event.issue.html_url }}|${{ 
           github.event.issue.title }}>"}' ${{
           secrets.SLACK_WEBHOOK }}

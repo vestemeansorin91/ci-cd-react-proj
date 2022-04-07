@@ -79,7 +79,7 @@ jobs:
             "title": "Automated issue for commit: ${{
             github.sha }}",
             "body": "This issue was automatically created by the Github
-            Action workflow **${{ github.workflow }}. \n\n The commit has was: 
-            _${{ github.sha }}_.",
+            Action workflow **${{
+             github.workflow }}. \n\n The commit has was: _${{ github.sha }}_.",
             "assignees": ["${{ github.event.pull_request.user.login }}"]
           }'
