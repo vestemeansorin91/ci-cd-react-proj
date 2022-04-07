@@ -8,6 +8,7 @@ on:
 jobs:
   slack-message:
     runs-on: ubuntu-latest
+    if: failure() && github.event_name == 'pull_request'
     steps:
       - name: Slack slack-message
         run: |
