@@ -16,7 +16,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "build:custom": "npx ncc build .github/actions/hello/index.js -o .github/actions/hello/dist",
+    "build:hello": "npx ncc build .github/actions/hello/index.js -o .github/actions/hello/dist",
+    "build:issue": "npx ncc build .github/actions/issue/index.js -o .github/actions/issue/dist",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format:check": "prettier --check \"**/*.{js,jsx,yml,yaml,json,css,scss,md}\"",
