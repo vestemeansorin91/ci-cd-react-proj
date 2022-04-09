@@ -13,6 +13,7 @@ jobs:
           body: Body
           assignees: |
             vestemeansorin91
+            newmagicfilms
       - run: |
           echo ${{ steps.issue.outputs.issueID }}
       - uses: ./.github/actions/hello
