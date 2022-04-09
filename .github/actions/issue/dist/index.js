@@ -4854,7 +4854,7 @@ module.exports = /******/ (function (modules, runtime) {
 
           const octokit = new github.getOctokit(token);
 
-          const response = await octokit.issues.create({
+          const response = await octokit.rest.issues.create({
             // owner: github.context.repo.owner,
             // repo: github.context.repo.repo,
             ...github.context.repo,
